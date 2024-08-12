@@ -1,71 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T16:40:59 AST" name="Default suite" finished-at="2024-08-12T16:41:37 AST" duration-ms="38276">
+  <suite started-at="2024-08-12T22:57:41 AST" name="Default suite" finished-at="2024-08-12T22:58:35 AST" duration-ms="53695">
     <groups>
     </groups>
-    <test started-at="2024-08-12T16:40:59 AST" name="Default test" finished-at="2024-08-12T16:41:37 AST" duration-ms="38276">
+    <test started-at="2024-08-12T22:57:41 AST" name="Default test" finished-at="2024-08-12T22:58:35 AST" duration-ms="53695">
       <class name="magentoWebsiteTesting.MagentoWebsiteTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T16:40:59 AST" name="setup" finished-at="2024-08-12T16:41:02 AST" duration-ms="3407" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:41 AST" name="setup" finished-at="2024-08-12T22:57:45 AST" duration-ms="4096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAnAccountTest()[pri:1, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T16:41:03 AST" name="createAnAccountTest" finished-at="2024-08-12T16:41:10 AST" duration-ms="7241" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Thank you for registering with Main Website Store.] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Thank you for registering with Main Website Store.] but found []
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at magentoWebsiteTesting.MagentoWebsiteTesting.createAnAccountTest(MagentoWebsiteTesting.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="createAnAccountTest()[pri:1, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:45 AST" name="createAnAccountTest" finished-at="2024-08-12T22:57:51 AST" duration-ms="6152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAnAccountTest -->
-        <test-method signature="singOutTest()[pri:2, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T16:41:10 AST" name="singOutTest" finished-at="2024-08-12T16:41:13 AST" duration-ms="3212" status="PASS">
+        <test-method signature="singOutTest()[pri:2, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:51 AST" name="singOutTest" finished-at="2024-08-12T22:57:53 AST" duration-ms="1313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singOutTest -->
-        <test-method signature="signInTest()[pri:3, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T16:41:13 AST" name="signInTest" finished-at="2024-08-12T16:41:22 AST" duration-ms="9218" status="PASS">
+        <test-method signature="signInTest()[pri:3, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:53 AST" name="signInTest" finished-at="2024-08-12T22:57:57 AST" duration-ms="4758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInTest -->
-        <test-method signature="addWomenlItems()[pri:5, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T16:41:22 AST" name="addWomenlItems" finished-at="2024-08-12T16:41:37 AST" duration-ms="15118" status="PASS">
+        <test-method signature="addMenItems()[pri:4, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:57 AST" name="addMenItems" finished-at="2024-08-12T22:58:15 AST" duration-ms="17390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMenItems -->
+        <test-method signature="addWomenlItems()[pri:5, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:58:15 AST" name="addWomenlItems" finished-at="2024-08-12T22:58:35 AST" duration-ms="19928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addWomenlItems -->

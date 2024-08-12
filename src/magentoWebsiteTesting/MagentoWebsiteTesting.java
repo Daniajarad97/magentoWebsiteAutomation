@@ -22,14 +22,14 @@ public class MagentoWebsiteTesting {
 	Random rand = new Random();
 	String password = "HelloWorld#123";
 	String emailAddressToSignInPage = "";
-	String nikeName ="";
+	String nikeNameReview = "";
 
 	@BeforeTest
 	public void setup() {
 
 		driver.manage().window().maximize();
 		driver.get(driverWebSite);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 	}
 
@@ -76,7 +76,7 @@ public class MagentoWebsiteTesting {
 		createAnAccountButton.click();
 
 		emailAddressToSignInPage = firstName + lastName + randomNumber + domaimName;
-		nikeName = firstName;
+		nikeNameReview = firstName;
 
 		WebElement messageAsWebElement = driver.findElement(By.className("messages"));
 		String theActualMessage = messageAsWebElement.getText();
@@ -116,7 +116,7 @@ public class MagentoWebsiteTesting {
 
 	}
 
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void addMenItems() {
 		int randItems = rand.nextInt();
 		WebElement menSection = driver.findElement(By.id("ui-id-5"));
@@ -187,7 +187,6 @@ public class MagentoWebsiteTesting {
 		driver.navigate().refresh();
 
 //		 review section 
-
 		WebElement reviewContainer = driver.findElement(By.cssSelector("#tab-label-reviews-title"));
 		reviewContainer.click();
 
@@ -204,19 +203,16 @@ public class MagentoWebsiteTesting {
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
 
 //		nickname_field
-
 		WebElement nicknameField = driver.findElement(By.id("nickname_field"));
-		nicknameField.sendKeys(nikeName);
+		nicknameField.sendKeys(nikeNameReview);
 
 //		summary_field
-
 		WebElement summaryField = driver.findElement(By.id("summary_field"));
 		summaryField.sendKeys("good");
 
 //		review_field
-
 		WebElement reviewField = driver.findElement(By.id("review_field"));
-		reviewField.sendKeys("sdsdisxisa");
+		reviewField.sendKeys("These sports clothes are comfortable and fit well!");
 //		submit_review 
 		WebElement submitReview = driver.findElement(By.cssSelector("button[class='action submit primary']"));
 		submitReview.click();
