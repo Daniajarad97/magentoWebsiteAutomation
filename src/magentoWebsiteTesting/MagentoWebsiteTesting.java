@@ -194,8 +194,8 @@ public class MagentoWebsiteTesting {
 
 		js.executeScript("window.scrollTo(0,1200)");
 
-		WebElement RatingStars = driver.findElement(By.cssSelector(".control.review-control-vote"));
-		System.out.println(RatingStars.findElements(By.tagName("label")).size() + "*****************");
+//		WebElement RatingStars = driver.findElement(By.cssSelector(".control.review-control-vote"));
+//		System.out.println(RatingStars.findElements(By.tagName("label")).size() + "*****************");
 
 		String[] ids = { "Rating_1", "Rating_2", "Rating_3", "Rating_4", "Rating_5" };
 		int randomIndex = rand.nextInt(ids.length);

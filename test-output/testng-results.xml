@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T22:57:41 AST" name="Default suite" finished-at="2024-08-12T22:58:35 AST" duration-ms="53695">
+  <suite started-at="2024-08-12T23:00:39 AST" name="Default suite" finished-at="2024-08-12T23:01:18 AST" duration-ms="38738">
     <groups>
     </groups>
-    <test started-at="2024-08-12T22:57:41 AST" name="Default test" finished-at="2024-08-12T22:58:35 AST" duration-ms="53695">
+    <test started-at="2024-08-12T23:00:39 AST" name="Default test" finished-at="2024-08-12T23:01:18 AST" duration-ms="38738">
       <class name="magentoWebsiteTesting.MagentoWebsiteTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:41 AST" name="setup" finished-at="2024-08-12T22:57:45 AST" duration-ms="4096" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:00:39 AST" name="setup" finished-at="2024-08-12T23:00:42 AST" duration-ms="2734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAnAccountTest()[pri:1, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:45 AST" name="createAnAccountTest" finished-at="2024-08-12T22:57:51 AST" duration-ms="6152" status="PASS">
+        <test-method signature="createAnAccountTest()[pri:1, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:00:42 AST" name="createAnAccountTest" finished-at="2024-08-12T23:00:49 AST" duration-ms="6514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAnAccountTest -->
-        <test-method signature="singOutTest()[pri:2, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:51 AST" name="singOutTest" finished-at="2024-08-12T22:57:53 AST" duration-ms="1313" status="PASS">
+        <test-method signature="singOutTest()[pri:2, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:00:49 AST" name="singOutTest" finished-at="2024-08-12T23:00:50 AST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singOutTest -->
-        <test-method signature="signInTest()[pri:3, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:53 AST" name="signInTest" finished-at="2024-08-12T22:57:57 AST" duration-ms="4758" status="PASS">
+        <test-method signature="signInTest()[pri:3, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:00:50 AST" name="signInTest" finished-at="2024-08-12T23:00:55 AST" duration-ms="4822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInTest -->
-        <test-method signature="addMenItems()[pri:4, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:57:57 AST" name="addMenItems" finished-at="2024-08-12T22:58:15 AST" duration-ms="17390" status="PASS">
+        <test-method signature="addMenItems()[pri:4, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:00:55 AST" name="addMenItems" finished-at="2024-08-12T23:01:07 AST" duration-ms="11978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMenItems -->
-        <test-method signature="addWomenlItems()[pri:5, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T22:58:15 AST" name="addWomenlItems" finished-at="2024-08-12T22:58:35 AST" duration-ms="19928" status="PASS">
+        <test-method signature="addWomenlItems()[pri:5, instance:magentoWebsiteTesting.MagentoWebsiteTesting@2c1b9e4b]" started-at="2024-08-12T23:01:07 AST" name="addWomenlItems" finished-at="2024-08-12T23:01:18 AST" duration-ms="11114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addWomenlItems -->
